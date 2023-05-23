@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test-suites/testng.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/RunTestNG.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
