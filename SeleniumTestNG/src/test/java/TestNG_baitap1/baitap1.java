@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class baitap1 extends Common {
@@ -22,7 +23,13 @@ public class baitap1 extends Common {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
     @Test(priority = 2)
-    public void addCategory(){
+    public void checkDasboard(){
+        String checkTitleDashboard = driver.findElement(By.xpath("//div[@class='clearfix float-start']//h4")).getText();
+        Assert.assertEquals(checkTitleDashboard,"Dashboard");
+        System.out.println("Pass");
+    }
+    @Test(priority = 3)
+    public void addCategorySuccess(){
         driver.findElement(By.xpath("//span[normalize-space()='Clients']")).click();
         sleep(1);
         driver.findElement(By.xpath("//a[contains(text(),'Clients')]")).click();
@@ -51,7 +58,14 @@ public class baitap1 extends Common {
         driver.findElement(By.xpath("//div[@id='s2id_currency']")).click();
         driver.findElement(By.xpath("//div[@id='select2-drop']//div[@class='select2-search']//input")).sendKeys("XTS",Keys.ENTER);
 
-//        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+    }
+    @Test(priority = 4)
+    public void checkAddCategogy(){
+
+    }
+    @Test(priority = 5)
+    public void addCategogyUnsuccess(){
 
     }
 }

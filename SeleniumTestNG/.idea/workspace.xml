@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/Location/htmlLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baitap1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baseTest/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ThucHanhCRM/ManageCustomers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/RunTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/RunTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baitap1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baitap1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baseTest/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baseTest/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/RunTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/RunTestNG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG_baitap1/baitap1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG_baitap1/baitap1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseTest/Common.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +53,49 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/AnhTester/Selenium_Java_AnhTester/SeleniumMaven"
+    "last_opened_file_path": "D:/AnhTester/SeleniumTestNG/SeleniumTestNG"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.baitap1">
+  <component name="RunManager" selected="TestNG.ManageCustomers">
     <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageCustomers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThucHanhCRM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ThucHanhCRM" />
+      <option name="MAIN_CLASS_NAME" value="ThucHanhCRM.ManageCustomers" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageCustomers.addCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThucHanhCRM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ThucHanhCRM" />
+      <option name="MAIN_CLASS_NAME" value="ThucHanhCRM.ManageCustomers" />
+      <option name="METHOD_NAME" value="addCustomer" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -77,24 +113,6 @@
       <option name="PACKAGE_NAME" value="TestNG" />
       <option name="MAIN_CLASS_NAME" value="TestNG.RunTestNG" />
       <option name="METHOD_NAME" value="testAnhTesterBlog" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunTestNG.testGoogleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.RunTestNG" />
-      <option name="METHOD_NAME" value="testGoogleSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ManageCustomers" />
+        <item itemvalue="TestNG.ManageCustomers.addCustomer" />
         <item itemvalue="TestNG.baitap1" />
         <item itemvalue="TestNG.RunTestNG.testAnhTesterBlog" />
         <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" />
-        <item itemvalue="TestNG.RunTestNG.testGoogleSearch" />
       </list>
     </recent_temporary>
   </component>
