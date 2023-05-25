@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test-suites/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/RunTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/Location/htmlLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baitap1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baseTest/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/RunTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/RunTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/RunTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/RunTestNG.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     "last_opened_file_path": "D:/AnhTester/Selenium_Java_AnhTester/SeleniumMaven"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml">
+  <component name="RunManager" selected="TestNG.baitap1">
     <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/testng.xml" />
@@ -98,11 +102,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="baitap1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG_baitap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG_baitap1" />
+      <option name="MAIN_CLASS_NAME" value="TestNG_baitap1.baitap1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.baitap1" />
+        <item itemvalue="TestNG.RunTestNG.testAnhTesterBlog" />
         <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" />
         <item itemvalue="TestNG.RunTestNG.testGoogleSearch" />
-        <item itemvalue="TestNG.RunTestNG.testAnhTesterBlog" />
       </list>
     </recent_temporary>
   </component>
