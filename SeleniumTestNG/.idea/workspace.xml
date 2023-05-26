@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ThucHanhCRM/ManageCustomers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baitap1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baitap1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baseTest/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_baitap1/baseTest/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/RunTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/RunTestNG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG_baitap1/baitap1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG_baitap1/baitap1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseTest/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThucHanhCRM/ManageCustomers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThucHanhCRM/ManageCustomers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/AnhTester/SeleniumTestNG/SeleniumTestNG"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AnhTester/SeleniumTestNG/SeleniumTestNG&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.ManageCustomers">
     <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />

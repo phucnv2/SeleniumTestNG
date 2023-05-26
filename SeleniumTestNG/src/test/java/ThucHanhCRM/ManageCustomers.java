@@ -51,7 +51,10 @@ public class ManageCustomers extends Common {
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys("");
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys("");
         driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
-
+        String checkEmail = driver.findElement(By.xpath("//div[normalize-space()='The Password field is required.']")).getText();
+        String checkPass = driver.findElement(By.xpath("//div[normalize-space()='The Email Address field is required.']")).getText();
+        Assert.assertEquals(checkEmail,"The Password field is required.","Password không đc để trống");
+        Assert.assertEquals(checkPass,"The Email Address field is required.","Email không đc để trống");
     }
 
     @Test(priority = 6)
@@ -71,17 +74,18 @@ public class ManageCustomers extends Common {
         waitForPageLoaded(driver);
         driver.findElement(By.xpath("//a[@href='https://crm.anhtester.com/admin/clients']")).click();
         String checkTitlePageCustomer = driver.findElement(By.xpath("//span[normalize-space()='Customers Summary']")).getText();
-        Assert.assertEquals(checkTitlePageCustomer,"Customers Summary","Not page Customer!");
+        Assert.assertEquals(checkTitlePageCustomer,"Customers Summary","FAIL. Not page Customer!");
 
         waitForPageLoaded(driver);
         driver.findElement(By.xpath("//a[normalize-space()='New Customer']")).click();
         waitForPageLoaded(driver);
         driver.findElement(By.xpath("//input[@id='company']")).sendKeys(companyName);
 
+
         driver.findElement(By.xpath("//input[@id='vat']")).sendKeys("1000");
         driver.findElement(By.xpath("//input[@id='phonenumber']")).sendKeys("0965339606");
         driver.findElement(By.xpath("//input[@id='website']")).sendKeys(website);
-//        driver.findElement(By.xpath("")).sendKeys("");
+        driver.findElement(By.xpath("//label[@for='groups_in[]']/following-sibling::div")).click();
 //        driver.findElement(By.xpath("")).sendKeys("");
 //        driver.findElement(By.xpath("")).sendKeys("");
 //        driver.findElement(By.xpath("")).sendKeys("");
