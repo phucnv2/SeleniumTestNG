@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/common/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThucHanhCRM/ManageCustomers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThucHanhCRM/ManageCustomers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +46,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AnhTester/SeleniumTestNG/SeleniumTestNG&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/AnhTester/SeleniumTestNG/SeleniumTestNG",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.ManageCustomers">
-    <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.LoginTest.loginPageEmailInvalid">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginPageEmailInvalid" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="loginPageEmailInvalid" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginPageSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="loginPageSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -97,48 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTestNG.testAnhTesterBlog" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.RunTestNG" />
-      <option name="METHOD_NAME" value="testAnhTesterBlog" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="baitap1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG_baitap1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG_baitap1" />
-      <option name="MAIN_CLASS_NAME" value="TestNG_baitap1.baitap1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.loginPageEmailInvalid" />
+        <item itemvalue="TestNG.LoginTest.loginPageSuccess" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.ManageCustomers" />
         <item itemvalue="TestNG.ManageCustomers.addCustomer" />
-        <item itemvalue="TestNG.baitap1" />
-        <item itemvalue="TestNG.RunTestNG.testAnhTesterBlog" />
-        <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" />
       </list>
     </recent_temporary>
   </component>
