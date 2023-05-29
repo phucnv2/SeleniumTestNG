@@ -18,9 +18,11 @@ public class LoginPage {
 
     By messageErrorInvalid = By.xpath("//div[@class='text-center alert alert-danger']");
 
+    By messEmailNull = By.xpath("//div[normalize-space()='The Email Address field is required.']");
+    By messPasswordNull = By.xpath("//div[normalize-space()='The Password field is required.']");
+
 
     // hàm xây dưng để truyền driver
-
 
 
     public LoginPage(WebDriver _driver) {
@@ -32,25 +34,82 @@ public class LoginPage {
         Assert.assertEquals(driver.findElement(headerPage).getText(), "Login", "Fail!");
     }
 
-    public void inputValueEmailPassword(String email, String password){
+    // cái này để thực hiện truyền text và click thôi
+    public void inputValueEmailPassword(String email, String password) {
         driver.findElement(inputEmail).sendKeys(email);
         driver.findElement(inputPassword).sendKeys(password);
         driver.findElement(buttonLogin).click();
     }
-    public void checkErrorMessageDisplay(){
-        Assert.assertTrue(driver.findElement(messageErrorInvalid).isDisplayed(),"Fail!");
-        Assert.assertEquals(driver.findElement(messageErrorInvalid).getText(),"Invalid email or password","Fail!");
-    }
-    public void pageLogin(String email,String password){
-        driver.get(URL);
-        verifyHeaderPage();
-        inputValueEmailPassword(email,password);
+
+    // check Err message null
+    public void checkErrorMessageEmailNull() {
+        Assert.assertTrue(driver.findElement(messageErrorNull).isDisplayed(), "Fail!");
+        Assert.assertEquals(driver.findElement(messageErrorNull).getText(), "The Email Address field is required.", "Fail!");
     }
 
-    public void pageLoginEmailInvalid(String email,String password){
+    public void checkErrorMessagePasswordNull() {
+        Assert.assertTrue(driver.findElement(messageErrorNull).isDisplayed(), "Fail!");
+        Assert.assertEquals(driver.findElement(messageErrorNull).getText(), "The Password field is required.", "Fail!");
+    }
+
+    public void checkErrorMessageEmailAndPasswordNull() {
+        Assert.assertTrue(driver.findElement(messEmailNull).isDisplayed(), "Fail!");
+        Assert.assertTrue(driver.findElement(messPasswordNull).isDisplayed(), "Fail!");
+        Assert.assertEquals(driver.findElement(messPasswordNull).getText(), "The Password field is required.", "Fail!");
+        Assert.assertEquals(driver.findElement(messEmailNull).getText(), "The Email Address field is required.", "Fail!");
+    }
+
+    // check Err message invalid
+    public void checkErrorMessageInvalidDisplay() {
+        Assert.assertTrue(driver.findElement(messageErrorInvalid).isDisplayed(), "Fail!");
+        Assert.assertEquals(driver.findElement(messageErrorInvalid).getText(), "Invalid email or password", "Fail!");
+    }
+
+    public void pageLoginEmailInvalid(String email, String password) {
         driver.get(URL);
         verifyHeaderPage();
-        inputValueEmailPassword(email,password);
-        checkErrorMessageDisplay();
+        inputValueEmailPassword(email, password);
+        checkErrorMessageInvalidDisplay();
+    }
+
+    public void pageLoginPasswordInvalid(String email, String password) {
+        driver.get(URL);
+        verifyHeaderPage();
+        inputValueEmailPassword(email, password);
+        checkErrorMessageInvalidDisplay();
+    }
+
+    public void pageLoginEmailAndPasswordInvalid(String email, String password) {
+        driver.get(URL);
+        verifyHeaderPage();
+        inputValueEmailPassword(email, password);
+        checkErrorMessageInvalidDisplay();
+    }
+
+    public void pageLoginEmailNull(String email, String password) {
+        driver.get(URL);
+        verifyHeaderPage();
+        inputValueEmailPassword(email, password);
+        checkErrorMessageEmailNull();
+    }
+
+    public void pageLoginPasswordNull(String email, String password) {
+        driver.get(URL);
+        verifyHeaderPage();
+        inputValueEmailPassword(email, password);
+        checkErrorMessagePasswordNull();
+    }
+
+    public void pageLoginEmaiAndPasswordNull(String email, String password) {
+        driver.get(URL);
+        verifyHeaderPage();
+        inputValueEmailPassword(email, password);
+        checkErrorMessageEmailAndPasswordNull();
+    }
+
+    public void pageLoginSuccess(String email, String password) {
+        driver.get(URL);
+        verifyHeaderPage();
+        inputValueEmailPassword(email, password);
     }
 }
