@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/common/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +47,22 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/AnhTester/SeleniumTestNG/SeleniumTestNG",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "last_opened_file_path": "D:/AnhTester/AutomationFrameworkCucumberTestNG",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.16639479"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginPageEmailInvalid">
+  <component name="RunManager" selected="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml">
+    <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
@@ -72,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginPageEmailInvalid" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.pageLoginEmailAndPasswordInvalid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +90,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
-      <option name="METHOD_NAME" value="loginPageEmailInvalid" />
+      <option name="METHOD_NAME" value="pageLoginEmailAndPasswordInvalid" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginPageSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.pageLoginEmailAndPasswordNull" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
-      <option name="METHOD_NAME" value="loginPageSuccess" />
+      <option name="METHOD_NAME" value="pageLoginEmailAndPasswordNull" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,34 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageCustomers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.pageLoginPasswordNull" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThucHanhCRM.*" />
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ThucHanhCRM" />
-      <option name="MAIN_CLASS_NAME" value="ThucHanhCRM.ManageCustomers" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageCustomers.addCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThucHanhCRM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ThucHanhCRM" />
-      <option name="MAIN_CLASS_NAME" value="ThucHanhCRM.ManageCustomers" />
-      <option name="METHOD_NAME" value="addCustomer" />
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="pageLoginPasswordNull" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginPageEmailInvalid" />
-        <item itemvalue="TestNG.LoginTest.loginPageSuccess" />
+        <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.ManageCustomers" />
-        <item itemvalue="TestNG.ManageCustomers.addCustomer" />
+        <item itemvalue="TestNG.LoginTest.pageLoginEmailAndPasswordInvalid" />
+        <item itemvalue="TestNG.LoginTest.pageLoginEmailAndPasswordNull" />
+        <item itemvalue="TestNG.LoginTest.pageLoginPasswordNull" />
       </list>
     </recent_temporary>
   </component>
