@@ -1,7 +1,7 @@
 package SeleniumTestNGPOM.testcases;
 
 import SeleniumTestNGPOM.common.BaseTest;
-import SeleniumTestNGPOM.pages.LoginPage;
+import SeleniumTestNGPOM.pages.login.LoginPage;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
