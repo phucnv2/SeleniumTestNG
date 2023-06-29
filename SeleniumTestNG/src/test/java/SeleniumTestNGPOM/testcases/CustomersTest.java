@@ -17,7 +17,7 @@ public class CustomersTest extends BaseTest {
     CustomerDetailPage customerDetailPage;
     @Test
     public void addNewCustomer(){
-        String CUSTOMER_NAME = "Lien";
+        String CUSTOMER_NAME = "Mien";
         loginPage = new LoginPage(driver);
         dashboardPage = loginPage.pageLoginSuccess("admin@example.com","123456");
         customersPage = dashboardPage.openCustomerPage();

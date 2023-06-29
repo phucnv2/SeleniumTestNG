@@ -32,20 +32,20 @@ private WebDriver driver;
         AssertJUnit.assertEquals("Sai Header roi",PAGE_TEXT,getTextElement(headerPageCustomers));
     }
     public AddCustomerPage clickBtnAddNewCustomer(){
-        waitForElementVisible(buttonAddCustomer,10);
+//        waitForElementVisible(buttonAddCustomer,10);
         clickElement(buttonAddCustomer);
         return new AddCustomerPage(driver);
     }
 
     public void searchRecordAddNew(String companyName){
         waitForPageLoaded();
-        waitForElementVisible(inputSearch,10);
+//        waitForElementVisible(inputSearch,10);
         senkeyText(inputSearch,companyName);
         sleep(3);
     }
     public CustomerDetailPage clickCustomerDetail(){
         waitForPageLoaded();
-        waitForElementVisible(tdCustomerName,10);
+//        waitForElementVisible(tdCustomerName,10);
         clickElement(tdCustomerName);
         return new CustomerDetailPage(driver);
     }
