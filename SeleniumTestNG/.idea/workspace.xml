@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/pages/customers/CustomersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/pages/customers/CustomersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/CustomersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/CustomersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/common/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/pages/customers/AddCustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/pages/customers/AddCustomerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/common/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/common/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/CustomersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/CustomersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/DashboardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/DashboardTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTestFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTestFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +56,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AnhTester/SeleniumTestNG/SeleniumTestNG&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AnhTester/SeleniumTestNGParallel&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.16639479&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.CustomersTest.addNewCustomer">
+  <component name="RunManager" selected="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/LoginTest.xml">
     <configuration name="CustomersTest.addNewCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
@@ -74,9 +80,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/LoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/LoginTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -139,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/LoginTest.xml" />
         <item itemvalue="TestNG.CustomersTest.addNewCustomer" />
         <item itemvalue="TestNG.DashboardTest.testOpenMenuDashboad" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.pageLoginEmailAndPasswordInvalid" />
-        <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/testng.xml" />
       </list>
     </recent_temporary>
   </component>
